@@ -1,0 +1,197 @@
+$degradado: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
+$color-fondo: #f5f5f5;
+$color-main: blue:
+
+.column-basic{
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 10px;
+
+  h2{
+    color: #007bff;
+  }
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EFF1ED;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media (max-width: 365px) {
+    #logotipo {
+      display: none;
+    }
+  
+    .navbar-brand {
+      padding: 0;
+    }
+  }
+  
+  @media all and (max-width: 500px) {
+    body {
+      overflow-x: visible;
+    }
+  }
+  
+  /* Estilos generales */
+
+  #inicio{
+    h1{
+      text-align: center;
+      margin-bottom: 2vh;
+    }
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  /* Encabezado */
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .two-column-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: $color-fondo;
+}
+
+
+.column:first-of-type{
+  flex-direction: column;
+}
+
+.column {
+  @extend .column-basic;
+    display: flex;
+
+
+    h2{
+      text-align: center;
+    }
+
+    img{
+        display: grid;
+        width: 100%;
+        height: auto;
+        align-content: center;
+        justify-content: center;
+    }
+} 
+  
+  section {
+    padding: 50px;
+  
+    h2 {
+      margin-bottom: 20px;
+      color: #007bff;
+    }
+  }
+  
+  /* Atracciones */  
+  .atraccion {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .atraccion img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .navbar {
+    background-color: $color-main;
+  }
+  
+  footer{
+    background-color: $color-main;
+    text-align: end;
+    padding: 2vh 3vh 2vh 2vh;
+    
+    p{
+      color: white;
+      margin: 0;
+      text-decoration: solid;
+    }
+    
+  }
+  /* Estilos para dispositivos móviles */
+  @media (max-width: 768px) {
+
+    .two-column-section {
+        flex-direction: column;
+        padding: 2vh;
+    }
+
+    .column, .column-half {
+        margin: 1vh;
+    }
+    
+    section{
+        padding: 15px;
+    }
+
+    .atraccion {
+      padding: 15px;
+      background-size: 100%;
+      height: 25vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      h3, p {
+        color: white;
+    }
+    
+      img {
+        display: none;
+      }
+
+
+    }
+    #concepcion{
+        background-image: $degradado, url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/86/29/0f/photo0jpg.jpg?w=1200&h=1200&s=1");
+    }
+
+    #charco{
+        background-image: $degradado, url("https://travelmademedoit.com/wp-content/uploads/2022/04/DSC07199.jpg.webp");
+    }
+
+    #sanjuan{
+        background-image: $degradado, url("https://howlermag.com/wp-content/uploads/2022/01/shutterstock_767294419-min-scaled.jpg");
+    }
+    
+  }
+
+  .column-half{
+    @extend .column-basic;
+
+  }

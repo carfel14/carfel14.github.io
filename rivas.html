@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Turismo</title>
+    <title>Turismo - Rivas</title>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: blue;">
+    <nav class="navbar navbar-expand-sm navbar-dark">
         <a class="navbar-brand mt-lg-0" href="index.html">
             <img class="logo" src="https://res.cloudinary.com/drbc8csv2/image/upload/v1691027833/icono_mki8qp.png" alt="logo" style="width: 50px;">
             <span id="logotipo" style="font-size: larger;">Turismo Nicaragua</span>
@@ -32,6 +32,20 @@
                 </li>
             </ul>
     </nav>
+
+    <section id="inicio">
+        <h1>¡Bienvenido a Rivas!</h1>
+        <div class="two-column-section">
+            <div class="column">
+                <h2>Generalidades de Rivas</h2>
+                <p>Rivas, una joya oculta en el sur de Nicaragua, es un destino que cautiva con su mezcla única de belleza natural y encanto cultural. Estratégicamente ubicada a orillas del impresionante Lago de Nicaragua y cerca de las costas del Océano Pacífico, Rivas es un punto de partida perfecto para explorar las maravillas que esta región tiene para ofrecer. Con un clima tropical que abraza cada rincón durante todo el año, Rivas es un paraíso donde la exuberante vegetación se encuentra con playas de arenas doradas, creando un paisaje impresionante que invita a la relajación y a la aventura.</p>
+            </div>
+            <div class="column">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Rivas_Department_in_Nicaragua.svg" alt="Rivas">
+            </div>
+        </div>
+    
+    </section>
     
     <section id="atracciones">
         <h2>Atracciones Destacadas</h2>
@@ -40,12 +54,16 @@
             <h3>Volcán Concepción</h3>
             <p>Explora el majestuoso volcán...</p>
         </div>
-        <div class="atraccion">
-            <img src="charco-verde.jpg" alt="Charco Verde">
+        <div class="atraccion" id="charco">
+            <img src="https://travelmademedoit.com/wp-content/uploads/2022/04/DSC07199.jpg.webp" alt="Charco Verde">
             <h3>Charco Verde</h3>
             <p>Sumérgete en las aguas cristalinas...</p>
         </div>
-        <!-- Agrega más atracciones aquí -->
+        <div class="atraccion" id="sanjuan">
+            <img src="https://howlermag.com/wp-content/uploads/2022/01/shutterstock_767294419-min-scaled.jpg" alt="SJdS">
+            <h3>San Juan del Sur</h3>
+            <p>Paraíso de sol y playa</p>
+        </div>
     </section>
     
     <section id="actividades">
@@ -53,42 +71,24 @@
         <ul>
             <li>Senderismo en los volcanes</li>
             <li>Paseos en bicicleta</li>
-            <li>Avistamiento de aves</li>
+            <li>Surfing</li>
             <li>Relajación en playas</li>
         </ul>
     </section>
-    
-    <section id="hospedaje">
-        <h2>Options de Hospedaje</h2>
-        <div class="hospedaje">
-            <img src="hotel-playa.jpg" alt="Hotel frente a la playa">
-            <h3>Hotel Playa Azul</h3>
-            <p>Disfruta de comodidad y vistas espectaculares...</p>
+
+    <div class="two-column-section">
+        <div class="column-half">
+            <h2>Cultura de Rivas</h2>
+            <p>Situada a orillas del hermoso Lago de Nicaragua y enmarcada por paisajes naturales impresionantes, Rivas se destaca por su arraigada conexión con la tierra y el agua. Los habitantes de Rivas celebran festividades tradicionales con fervor, fusionando influencias indígenas, españolas y afrodescendientes. La comunidad también preserva su identidad a través de la artesanía, elaborando productos únicos como hamacas tejidas y cerámica pintada a mano. La cultura de Rivas es una expresión vivaz de la diversidad nicaragüense enmarcada por la belleza natural y la historia arraigada en la región; cerca de las costas del Océano Pacífico, Rivas es un punto de partida perfecto para explorar las maravillas que esta región tiene para ofrecer.Rivas es un paraíso donde la exuberante vegetación se encuentra con playas de arenas doradas, creando un paisaje impresionante que invita a la relajación y a la aventura.</p>
         </div>
-        <div class="hospedaje">
-            <img src="hostal-charco.jpg" alt="Hostal acogedor">
-            <h3>Hostal El Descanso</h3>
-            <p>Ambiente acogedor y atención personalizada...</p>
+        <div class="column-half">
+            <h2>Gastronomía de Rivas</h2>
+            <p>La gastronomía de Rivas es un deleite para los sentidos que refleja la rica diversidad de ingredientes locales y la tradición culinaria de la región. El vigorón, una deliciosa combinación de yuca cocida, chicharrones crujientes y ensalada de repollo, es una opción emblemática que captura la esencia de la comida callejera. El pescado seco, preparado con esmero y sazonado con especias autóctonas, es un recordatorio de la conexión profunda con el agua. Además, la cajeta de coco y los plátanos fritos son postres que endulzan cualquier experiencia gastronómica.</p>
         </div>
-        <!-- Agrega más opciones de hospedaje aquí -->
-    </section>
-    
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>¡Contáctanos para planificar tu viaje a la Isla de Ometepe!</p>
-        <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
+    </div>
     
     <footer>
-        <p>&copy; 2023 Isla de Ometepe. Todos los derechos reservados.</p>
+        <p>&copy; 2023 Turismo de Nicaragua</p>
     </footer>
 </body>    
 
