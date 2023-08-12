@@ -127,6 +127,43 @@ footer p {
           text-decoration: solid;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th {
+  background-color: cornflowerblue !important;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center !important;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#sitios {
+  height: 40vh;
+  width: auto;
+  align-items: center;
+}
+
+#imagenes {
+  flex-direction: column;
+}
+#imagenes label {
+  text-align: center;
+}
+
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
   .two-column-section {
