@@ -161,4 +161,22 @@ footer p {
   #sanjuan {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5333333333) 30%, rgba(255, 255, 255, 0.2666666667) 100%), url("https://howlermag.com/wp-content/uploads/2022/01/shutterstock_767294419-min-scaled.jpg");
   }
+  #catedral {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5333333333) 30%, rgba(255, 255, 255, 0.2666666667) 100%), url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Kathedrale_Leon_2.JPG/1200px-Kathedrale_Leon_2.JPG");
+  }
+  #casa {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5333333333) 30%, rgba(255, 255, 255, 0.2666666667) 100%), url("https://vianica.com/imgi/550/31152.jpg?1691366400016");
+  }
+  #cerro {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5333333333) 30%, rgba(255, 255, 255, 0.2666666667) 100%), url("https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/36/b7/48.jpg");
+  }
+  #isletas {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5333333333) 30%, rgba(255, 255, 255, 0.2666666667) 100%), url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/49/da/c7/a-thousand-islands.jpg?w=600&h=400&s=1");
+  }
+  #catedralG {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5333333333) 30%, rgba(255, 255, 255, 0.2666666667) 100%), url("https://nicadestino.com/wp-content/uploads/listing-uploads/gallery/2022/01/Catedral-de-Granada-1.jpg");
+  }
+  #vidaNocturna {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5333333333) 30%, rgba(255, 255, 255, 0.2666666667) 100%), url("https://dev.confidencial.digital/wp-content/uploads/2022/11/50286738628_140672cc24_b-1.jpg");
+  }
 }/*# sourceMappingURL=style.css.map */

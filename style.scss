@@ -1,6 +1,6 @@
 $degradado: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
 $color-fondo: #f5f5f5;
-$color-main: blue:
+$color-main: blue;
 
 .column-basic{
   justify-content: center;
@@ -175,7 +175,6 @@ body {
         display: none;
       }
 
-
     }
     #concepcion{
         background-image: $degradado, url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/86/29/0f/photo0jpg.jpg?w=1200&h=1200&s=1");
@@ -187,6 +186,30 @@ body {
 
     #sanjuan{
         background-image: $degradado, url("https://howlermag.com/wp-content/uploads/2022/01/shutterstock_767294419-min-scaled.jpg");
+    }
+
+    #catedral{
+      background-image: $degradado, url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Kathedrale_Leon_2.JPG/1200px-Kathedrale_Leon_2.JPG");
+    }
+
+    #casa {
+      background-image: $degradado, url("https://vianica.com/imgi/550/31152.jpg?1691366400016");
+    }
+
+    #cerro {
+      background-image: $degradado, url("https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/36/b7/48.jpg");
+    }
+
+    #isletas {
+      background-image: $degradado, url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/49/da/c7/a-thousand-islands.jpg?w=600&h=400&s=1")
+    }
+
+    #catedralG {
+      background-image: $degradado, url("https://nicadestino.com/wp-content/uploads/listing-uploads/gallery/2022/01/Catedral-de-Granada-1.jpg");
+    }
+
+    #vidaNocturna{
+      background-image: $degradado, url("https://dev.confidencial.digital/wp-content/uploads/2022/11/50286738628_140672cc24_b-1.jpg");
     }
     
   }
